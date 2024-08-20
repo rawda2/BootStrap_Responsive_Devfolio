@@ -90,13 +90,13 @@ body{
      background-position: center;
      background-size: cover;
      flex-direction: column;
+         
 
 }
 .h1{
-    font-size:80px;
-    font-weight: 900;
-    
+    font-size:4em;
     color: #fff;
+    
 }
 
 #element{
@@ -111,29 +111,7 @@ body{
     font-size:3rem;
     color: #fff;
 }
-@media (max-width: 1200px) {
-    .h1 {
-        font-size: 4rem; /* Size for large tablets and smaller laptops */
-    }
-}
 
-@media (max-width: 992px) {
-    .h1 {
-        font-size: 3.5rem; /* Size for tablets and smaller devices */
-    }
-}
-
-@media (max-width: 768px) {
-    .h1 {
-        font-size: 3rem; /* Size for mobile devices */
-    }
-}
-
-@media (max-width: 576px) {
-   .h1 {
-        font-size: 2.5rem; /* Size for extra-small devices */
-    }
-}
 
 .data span{
     font-size: 17px;
@@ -180,6 +158,13 @@ body{
     top:90% ;
     left: 48%;
     background-color: #0078FF;
+}
+@media (max-width:600px)  {
+    .caption::after{
+        width: 10%;
+        left: 45%;
+    }
+    
 }
 .caption h3{
     font-size:3rem;
@@ -446,9 +431,7 @@ body{
     font-weight: 300;
     font-size: 15px;
 }
-.form{
-    padding: 10%;
-}
+
 .form .container{
   background-color: #fff;
 }
@@ -496,7 +479,7 @@ body{
     cursor: pointer;
 }
 footer{
-    padding: 2% 35%;
+    
     text-align: center;
     width: 100%;
     background-color: #0062D3;
